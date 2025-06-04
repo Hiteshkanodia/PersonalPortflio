@@ -3,12 +3,8 @@ import react from "@vitejs/plugin-react";
 import path from "path";
 import { fileURLToPath } from "url";
 import runtimeErrorOverlay from "@replit/vite-plugin-runtime-error-modal";
-
-<<<<<<< HEAD
-=======
 import { fileURLToPath } from 'url';
 
->>>>>>> e4ece1a43081154129b480570a89b846a4d8bd08
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
