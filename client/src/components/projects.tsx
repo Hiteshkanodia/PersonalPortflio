@@ -1,7 +1,7 @@
-import { Button } from "@/components/ui/button";
-import { Card, CardContent } from "@/components/ui/card";
+import { Button } from "../components/ui/button";
+import { Card, CardContent } from "../components/ui/card";
 import { ExternalLink, Github, ArrowRight } from "lucide-react";
-import type { Project } from "@/lib/types";
+import type { Project } from "../lib/types";
 
 const projects: Project[] = [
   {
